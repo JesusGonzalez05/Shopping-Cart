@@ -17,5 +17,7 @@ int main() {
     printf("total quantity?\n ");
     scanf("%d", &quantity);
 
+    total = price * quantity;
+
     return 0;
 }
