@@ -1,4 +1,4 @@
-# include <stdio.h >
+# include <stdio.h>
 
 int main() {
 
@@ -11,13 +11,15 @@ int main() {
     printf("What are you buying today?\n ");
     fgets( item, sizeof(item), stdin);
 
-    printf("What is the price of each?\n "):
+    printf("What is the price of each?\n ");
     scanf("%f", &price);
 
     printf("total quantity?\n ");
     scanf("%d", &quantity);
 
     total = price * quantity;
+
+    printf("Your total is %c%.2f\n", currency, total);
 
     return 0;
 }
